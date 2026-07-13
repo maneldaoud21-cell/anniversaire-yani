@@ -10,10 +10,13 @@ document.body.innerHTML = `
 
 <p>Ton cadeau quitte Béjaïa pour rejoindre Sherbrooke.</p>
 
+<div class="cities">
+<span>📍 Béjaïa 🇩🇿</span>
+<span>📍 Sherbrooke 🇨🇦</span>
+</div>
+
 <div class="progress">
-
-<div id="gift">🎁</div>
-
+<div id="gift">🎁✈️</div>
 </div>
 
 <p id="distance">Distance restante : 6100 km</p>
