@@ -52,3 +52,24 @@ button:hover{
     background-size:70px 70px;
     opacity:.3;
 }
+.voyage{
+text-align:center;
+width:90%;
+}
+
+.progress{
+position:relative;
+width:90%;
+height:10px;
+background:white;
+margin:40px auto;
+border-radius:10px;
+}
+
+#gift{
+position:absolute;
+top:-28px;
+left:0%;
+font-size:45px;
+transition:0.1s;
+}
