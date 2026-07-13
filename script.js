@@ -6,9 +6,7 @@ document.body.innerHTML = `
 
 <div class="voyage">
 
-<h1>🌍 Le voyage commence...</h1>
-
-<p>Ton cadeau quitte Béjaïa pour rejoindre Sherbrooke.</p>
+<h1>🌍 Ton cadeau est en route...</h1>
 
 <div class="cities">
 <span>📍 Béjaïa 🇩🇿</span>
@@ -16,10 +14,18 @@ document.body.innerHTML = `
 </div>
 
 <div class="progress">
-<div id="gift">🎁✈️</div>
+
+<div class="route"></div>
+
+<div id="plane">
+✈️🎁
 </div>
 
-<p id="distance">Distance restante : 6100 km</p>
+</div>
+
+<p id="distance">
+Distance restante : <span id="km">6100</span> km
+</p>
 
 </div>
 
@@ -27,7 +33,7 @@ document.body.innerHTML = `
 
 const distance=document.getElementById("distance");
 
-const gift=document.getElementById("gift");
+const gift=document.getElementById("plane");
 
 let km=6100;
 let pos=0;
