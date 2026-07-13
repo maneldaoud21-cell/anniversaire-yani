@@ -75,3 +75,28 @@ left:0%;
 font-size:45px;
 transition:0.1s;
 }
+.cities{
+display:flex;
+justify-content:space-between;
+width:90%;
+margin:20px auto;
+font-weight:bold;
+font-size:18px;
+}
+
+.progress{
+position:relative;
+width:90%;
+height:8px;
+background:white;
+border-radius:20px;
+margin:auto;
+}
+
+#gift{
+position:absolute;
+top:-25px;
+left:0;
+font-size:38px;
+transition:0.12s linear;
+}
