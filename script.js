@@ -44,7 +44,7 @@ km-=200;
 
 pos+=3;
 
-gift.style.left=pos+"%";
+gift.style.left=Math.min(pos,95)+"%";
 
 distance.innerHTML="Distance restante : "+Math.max(km,0)+" km";
 
